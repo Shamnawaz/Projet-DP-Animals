@@ -19,4 +19,5 @@ Algo utilisé : Yolo V5
 Objectif : Identifier les animaux présents dans une image ou bien dans une séquence vidéo
 
 Pour tester une vidéo insérer le lien suivant / Papillon : https://youtu.be/1b87rwtXGzA?si=DQEgg79WjYudvuC_
+
 Pour tester une vidéo insérer le lien suivant / Aigle : https://youtu.be/hecXupPpE9o?si=mdkZ3esyfSd20oRH

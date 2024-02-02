@@ -6,12 +6,12 @@ lancer l'app :
 
 Commande : streamlit run app.py
 
-Classification d'images
+# Classification d'images
 
 Algo utilisé : TensorFlow Keras (Resnet50)
 Objectif : Classifier les images de sorte à ce qu'en ajoutant une image, l'IA puisse reconnaître l'animal sur l'image
 
-Deep learning
+# Deep learning
 
 Algo utilisé : Yolo V5
 Objectif : Identifier les animaux présents dans une image ou bien dans une séquence vidéo

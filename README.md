@@ -1,1 +1,7 @@
-lien kaggle : https://www.kaggle.com/code/theoneandonlyp/animals-classification
+lien kaggle : 
+
+lancer l'app : 
+-> faire un venv du project
+-> pip install -r requirements.txt
+
+streamlit run app.py

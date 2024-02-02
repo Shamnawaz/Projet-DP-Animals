@@ -2,17 +2,16 @@ import streamlit as st
 from tensorflow import keras
 from PIL import Image
 import numpy as np
-from functions import *
 from tensorflow.keras.applications.resnet50 import preprocess_input
 
 # Charger le modèle Keras à partir du fichier .h5
-model = keras.models.load_model('ResNet50_DEL2.h5')
+model = keras.models.load_model('./ResNet50_DEL2.h5')
 
 # Interface utilisateur Streamlit
 st.title('Classification Deep learning')
 
 # Ajout de la fonctionnalité d'upload d'image
-uploaded_file = st.file_uploader("Téléchargez une image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Uploader une image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Afficher l'image téléchargée
@@ -54,4 +53,6 @@ if uploaded_file is not None:
     # Afficher la classe avec le pourcentage le plus élevé
     st.write(f'Classe prédite : {max_class}')
     st.write(f'Probabilité : {max_proba:.2f}%')
+
+
 
